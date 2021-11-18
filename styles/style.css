@@ -89,7 +89,10 @@ div {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: 500;
   color: var(--obj-blue);
+  display: inline-block;
+  margin: 0;
 }
 .two-columns__main-text {
   width: 80%;
