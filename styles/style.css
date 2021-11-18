@@ -138,7 +138,7 @@ div {
   font-size: 24px;
 }
 .table__cell-text {
-  margin: 20px 0px;
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
 }
