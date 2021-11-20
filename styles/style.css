@@ -39,10 +39,11 @@ div {
   position: relative;
   background-color: var(--light-gray);
 }
-.header__logo{
+.logo {
   width: 183px;
   height: 32px;
-  background-image: url();
+}
+.logo_place_header {
   top: 30px;
   left: 64px;
 }
@@ -210,4 +211,16 @@ div {
   z-index: 0;
   right: -210px;
 }
-.
+.footer {
+  min-height: 350px;
+  padding: 60px 0 40px;
+  
+}
+.footer__columns {
+  margin: 0 auto;
+  width: 90%;
+}
+.logo_place_footer {
+  width: 183px;
+  height:35px;
+}
