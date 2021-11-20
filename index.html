@@ -10,13 +10,11 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header position-absolute z-index-2">
+      <div class="logo logo_place_header position-absolute z-index-2 ">
         <a href="#"> <img src="./images/logo_place_header.svg" alt="Яндекс Практикум"></a>
       </div>
       <h1 class="header__title z-index-2">Научиться учиться</h1>
-      <div class="header__subtitle position-absolute z-index-2">
-        <p>Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="#"> Узнать</a></p>
-      </div>
+      <p class="header__subtitle position-absolute z-index-2 ">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link link_decoration_off" href="#"> Узнать</a></p>
       <div class="header__main-illustration position-absolute"></div>
       <div class="header__square-pic position-absolute"></div>
     </header>
@@ -75,8 +73,8 @@
 
       <section class="feynman">
         <h2 class="feynman__title centered">Метод Фейнмана</h2>
-        <div class="feynman__subtitle">Выучить и не забыть.</div>
-        <a href="#" class="feynman__link">Подобнее</a>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link link_decoration_off">Подобнее</a>
       </section>  
 
       <section class="kaufman theme_dark">
@@ -133,11 +131,24 @@
           <div class="logo logo_place_footer">
             <a href="#" ><img src="./images/logo_place_footer.svg" alt="Яндекс Практикум"></a>
           </div>
-          
-          
+          <p class="footer__author"> &copy 2019. Виктор Абанькин</p>
         </div>
-        <div class="footer__column_content_info"></div>
-        <div class="footer__column_content_social"></div>
+        <div class="footer__column_content_info">
+          <h6 class="footer__column-heading">О практикуме</h6>
+          <ul class="footer__column-link">
+            <li class=""><a href="" class="footer__column-link link_decoration_off">Главная</a></li>
+            <li class=""><a href="" class="footer__column-link link_decoration_off">Концепция</a></li>
+            <li class=""><a href="" class="footer__column-link link_decoration_off">Наставники</a></li>
+          </ul>
+        </div>
+        <div class="footer__column_content_social">
+          <h6 class="footer__column-heading">Соцсети</h6>
+          <ul class="footer__column-link">
+            <li class=""><a href="https://www.facebook.com" target="_blank" class="footer__column-link link_decoration_off"><img src="./images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon">Facebook</a></li>
+            <li class=""><a href="https://www.vk.com" target="_blank" class="footer__column-link link_decoration_off"><img src="./images/vk_color_white.svg" alt="Вконтакте" class="footer__social-icon">Вконтакте</a></li>
+            <li class=""><a href="https://www.instagram.com" target="_blank" class="footer__column-link link_decoration_off"><img src="./images/instagram_color_white.svg" alt="Instagram" class="footer__social-icon">Instagram</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </div>
