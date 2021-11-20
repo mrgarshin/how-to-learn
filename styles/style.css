@@ -104,7 +104,7 @@
   left: 64px;
 }
 .header__link {
-  color: var(--obj-blue)
+  color: var(--obj-blue);
 }
 .header__link::after {
   content: " \2192";
@@ -113,7 +113,7 @@
 .header__main-illustration {
   height: 608px;
   width: 765px;
-  background:  no-repeat url(../images/header-image.png) ;
+  background: no-repeat url(../images/header-image.png);
   background-size: cover;
   bottom: 0;
   right: 0;
