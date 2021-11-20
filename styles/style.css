@@ -19,6 +19,51 @@
 .link_decoration_off {
   text-decoration: none;
 }
+.line-height-xxs {
+  line-height: 1.15;
+}
+.line-height-xs {
+  line-height:1.2;
+}
+.line-height-s {
+  line-height: 25px;
+}
+.line-height-m {
+  line-height: 30px;
+}
+.line-height-l {
+  line-height: 34px;
+}
+.line-height-xl {
+  line-height:51px;
+}
+.line-height-xxl {
+  line-height: 96px;
+}
+.font-size-xxs {
+  font-size: 18px;
+}
+.font-size-xs {
+  font-size: 24px;
+}
+.font-size-s {
+  font-size: 36px;
+}
+.font-size-m {
+  font-size: 60px;
+}
+.font-size-l {
+  font-size: 102px;
+}
+.font-size-xl {
+  font-size: 120px;
+}
+.font-weight-m {
+  font-weight: 500;
+}
+.font-weight-l {
+  font-weight: 800;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
