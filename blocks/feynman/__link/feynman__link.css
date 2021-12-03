@@ -11,3 +11,7 @@
 .feynman__link::after {
   content: " \2192";
 }
+.feynman__link:hover {
+  transition: 0.5s ease;
+  opacity: 0.5;
+}

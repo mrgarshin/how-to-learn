@@ -5,3 +5,7 @@
 .header__link::after {
   content: " \2192";
 }
+.header__link:hover {
+  transition: 0.5s ease;
+  opacity: 0.5;
+}
