@@ -1,11 +1,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: 0.5s ease;
 }
 .header__link::after {
   content: " \2192";
 }
 .header__link:hover {
-  transition: 0.5s ease;
   opacity: 0.5;
 }
